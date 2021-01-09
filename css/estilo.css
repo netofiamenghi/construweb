@@ -1,0 +1,58 @@
+input[type=text],
+input[type=search],
+input[type=email],
+input[type=url],
+input[type=number],
+input[type=date],
+input[type=file],
+input[type=password],
+textarea,
+option {
+    text-transform: uppercase;
+    color: #456583;
+}
+
+.login {
+    background: white !important;
+    color: #44A4B4;
+}
+
+.login a {
+    color: gray;
+}
+
+.item-cliente,
+.item-tecnico,
+.item-projeto,
+.item-funcionario,
+.item-fornecedor,
+.item-produto,
+.item-obra,
+.item-obra-padrao,
+.item-obra-cliente {
+    color: #456583;
+    margin: 5px;
+    cursor: pointer;
+    list-style-type: none;
+}
+
+.item-cliente:hover,
+.item-tecnico:hover,
+.item-projeto:hover,
+.item-funcionario:hover,
+.item-fornecedor:hover,
+.item-produto:hover,
+.item-obra:hover,
+.item-obra-padrao:hover,
+.item-obra-cliente:hover {
+    background: yellow;
+}
+
+
+/* .right_col { */
+
+
+/* min-height: 700px !important;  */
+
+
+/* } */
